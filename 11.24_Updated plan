@@ -1,0 +1,23 @@
+1. Answers to some basic questions and hypothesis remain unknow because there is no reliable large scale human mobility data.
+  // Now we have location-based online social networking application.
+
+2. We will explore: 
+  1) geographic movement(Where do we move?) 
+  2) temporal dynamics(How often do we move?)
+  3) social network(How do social ties interact with movement?
+  Later we could build models on these topics
+  
+3.This could be used for urban planning, human migration patterns and the spread of diseases.
+
+4. Our current plan:
+  - Small world properties, visualize the network, show the degree distribution
+  - Geographic movement: stop detection, distance distribution, stay time distribution
+  - Temporal dynamics: Fraction of stay, number of trips everyday
+  
+5. What we can really do according to the article:
+  - Network analysis (that Abby is working on)
+  - Figure 2  (a)(b): We can compare the distance between friends and the distance between all users.
+    // Maybe we should use stop detection and clustering to find the home first
+  - ??? show the relation between network and movement ???
+
+Mainly work on the data analysis and visualization, not on the modeling part.
