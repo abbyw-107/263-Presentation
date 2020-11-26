@@ -1,0 +1,17 @@
+For collaboration analysis:
+
+  1. Select users (maybe around 500)
+  
+  2. Find home location of users 
+      skmob.measures.individual.home_location:
+      https://scikit-mobility.github.io/scikit-mobility/reference/individual_measures.html#skmob.measures.individual.home_location
+      
+  3. Create a dataframe with the following collumn:
+      origin    target    origin_homeLocation   target_homeLocation   distance
+      
+  4. Then we find the relationship between the existance of edges and home distance (the distance distribution)
+  
+  
+  Optional maybe:
+  
+      Find the trip pattern under the influence of the network
